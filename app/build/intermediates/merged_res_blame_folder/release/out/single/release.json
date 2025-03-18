@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.photocompressor.app-merged_res-55:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.photocompressor.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.photocompressor.app-merged_res-55:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.photocompressor.app-main-56:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.photocompressor.app-merged_res-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.photocompressor.app-main-56:/drawable/ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.photocompressor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission
+12-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:5:5-6:51
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:5:22-77
+14        android:maxSdkVersion="32" />
+14-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:6:22-48
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:7:5-76
+15-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:7:22-73
+16    <uses-permission
+16-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:8:5-9:51
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:8:22-78
+18        android:maxSdkVersion="28" />
+18-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:9:22-48
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:10:5-77
+19-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:10:22-74
+20    <uses-permission android:name="android.permission.REORDER_TASKS" />
+20-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+20-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.photocompressor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.photocompressor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:12:5-29:19
+29        android:allowBackup="true"
+29-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:13:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] /Users/kshanly/.gradle/caches/8.9/transforms/1141bf5fcfe830a0f023993094f47cbd/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@drawable/ic_launcher"
+33-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:14:9-45
+34        android:label="@string/app_name"
+34-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:16:9-41
+35        android:roundIcon="@drawable/ic_launcher"
+35-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:15:9-50
+36        android:supportsRtl="true"
+36-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:17:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.PhotoCompressor" >
+38-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:18:9-53
+39        <activity
+39-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:20:9-28:20
+40            android:name="com.example.photocompressor.MainActivity"
+40-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:21:13-41
+41            android:exported="true"
+41-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:22:13-36
+42            android:theme="@style/Theme.PhotoCompressor" >
+42-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:23:13-57
+43            <intent-filter>
+43-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:24:13-27:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:17-69
+44-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:26:17-77
+46-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:26:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+52            android:authorities="com.example.photocompressor.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/5f925e6498d7c218abc1816301c89b7e/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kshanly/.gradle/caches/8.9/transforms/c3fd9269e9fde00f3e2a11331390d5d6/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kshanly/.gradle/caches/8.9/transforms/c3fd9269e9fde00f3e2a11331390d5d6/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/kshanly/.gradle/caches/8.9/transforms/c3fd9269e9fde00f3e2a11331390d5d6/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+62                android:value="androidx.startup" />
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+63        </provider>
+64
+65        <activity
+65-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+66-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+67            android:exported="true"
+67-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+68            android:theme="@android:style/Theme" >
+68-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+69            <intent-filter>
+69-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:17-69
+70-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:25-66
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+74-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+75            android:exported="true"
+75-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+76            android:theme="@android:style/Theme" >
+76-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+77            <intent-filter>
+77-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:17-69
+78-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:25-66
+79            </intent-filter>
+80        </activity>
+81        <activity
+81-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+82-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+83            android:exported="true"
+83-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+84            android:theme="@android:style/Theme.Dialog" >
+84-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+85            <intent-filter>
+85-->[androidx.test:core:1.4.0] /Users/kshanly/.gradle/caches/8.9/transforms/7916cf18e95ed41b024d10117ff9341d/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:17-69
+86-->/Users/kshanly/PhotoCompressorApp/app/src/main/AndroidManifest.xml:25:25-66
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->[androidx.compose.ui:ui-test-manifest:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/126a17dd2c040e26cff2dbb66a0ba8a4/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
+90            android:name="androidx.activity.ComponentActivity"
+90-->[androidx.compose.ui:ui-test-manifest:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/126a17dd2c040e26cff2dbb66a0ba8a4/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
+91            android:exported="true" />
+91-->[androidx.compose.ui:ui-test-manifest:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/126a17dd2c040e26cff2dbb66a0ba8a4/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
+92        <activity
+92-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/434eae950190166fdc2a5bb1e9ed4554/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+93            android:name="androidx.compose.ui.tooling.PreviewActivity"
+93-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/434eae950190166fdc2a5bb1e9ed4554/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+94            android:exported="true" />
+94-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/kshanly/.gradle/caches/8.9/transforms/434eae950190166fdc2a5bb1e9ed4554/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kshanly/.gradle/caches/8.9/transforms/7768d2e7018d077f803e38c79b7176a8/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>
