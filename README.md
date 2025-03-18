@@ -1,9 +1,5 @@
 # ShrinkSnap
 
-<p align="center">
-  <img src="app/src/main/res/drawable/ic_launcher.png" width="120" alt="ShrinkSnap Logo"/>
-</p>
-
 **ShrinkSnap** is a modern Android application designed to efficiently compress photos on your device, saving valuable storage space while maintaining reasonable image quality. Built with Jetpack Compose, the app features fluid animations and a highly interactive user interface.
 
 ## ✨ Features
