@@ -2,7 +2,7 @@
 
 **ShrinkSnap** is a modern Android application designed to efficiently compress photos on your device, saving valuable storage space while maintaining reasonable image quality. Built with Jetpack Compose, the app features fluid animations and a highly interactive user interface.
 
-## ✨ Features
+## Features
 
 - **Smart Photo Analysis**: Analyzes photos based on age criteria (days, weeks, months, or years)
 - **Efficient Compression**: Reduces photo file sizes while preserving acceptable quality
@@ -11,7 +11,7 @@
 - **Detailed Statistics**: Shows compression results with clear metrics of space saved
 - **Interactive Elements**: Responsive UI with haptic feedback and visual cues
 
-## 📱 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="screenshots/home_screen.png" width="200" alt="Home Screen"/>
@@ -19,7 +19,7 @@
   <img src="screenshots/results_screen.png" width="200" alt="Results Screen"/>
 </p>
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Architecture
 
@@ -50,7 +50,7 @@ The app features advanced animation patterns implemented using Compose Animation
 - **Particle System**: Custom particle animation for success celebration
 - **Shimmer Effects**: Loading states with gradient animations
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ git clone https://github.com/yourusername/ShrinkSnap.git
 ./gradlew installDebug
 ```
 
-## 📋 Usage
+## Usage
 
 1. **Home Screen**: Start your compression journey
 2. **Compress Screen**: 
@@ -89,13 +89,13 @@ git clone https://github.com/yourusername/ShrinkSnap.git
    - View detailed statistics after completion
    - Return to home screen when done
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Original photos will be **deleted** after compression
 - Compressed versions are saved with a "_compressed" suffix in the same directory
 - The app requires storage permissions to access and modify photos
 
-## 🔒 Permissions
+## Permissions
 
 The app requires the following permissions:
 
@@ -104,7 +104,7 @@ The app requires the following permissions:
 - `WRITE_EXTERNAL_STORAGE` (Android 9 and below)
 - `POST_NOTIFICATIONS` (Android 13+)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -114,15 +114,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+## Author
 
 [@ashinshanly](https://github.com/ashinshanly)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Material Design 3 for UI inspiration
 - Android Jetpack team for Compose
