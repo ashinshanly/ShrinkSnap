@@ -120,7 +120,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-Your Name - [@ashinshanly](https://github.com/ashinshanly)
+[@ashinshanly](https://github.com/ashinshanly)
 
 ## 🙏 Acknowledgments
 
