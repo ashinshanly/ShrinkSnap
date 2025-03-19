@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable-xxhdpi_feature_photo1.jpg.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable-xxhdpi/feature_photo1.jpg"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable-xxhdpi_feature_photo2.jpg.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable-xxhdpi/feature_photo2.jpg"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable-xxhdpi_bg_photo1.jpg.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable-xxhdpi/bg_photo1.jpg"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable-xxhdpi_feature_photo3.jpg.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable-xxhdpi/feature_photo3.jpg"
+    },
+    {
+        "merged": "com.example.shrinksnap.app-debug-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.shrinksnap.app-main-60:/drawable/ic_launcher_foreground.xml"
+    }
+]
